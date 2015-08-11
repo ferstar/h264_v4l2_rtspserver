@@ -57,12 +57,13 @@ Usage
 		 -Q length: Number of frame queue  (default 10)
 		 -O output: Copy captured frame to a file or a V4L2 device
 		 RTSP options :
+		 -I addr  : RTSP interface (default autodetect)
 		 -P port  : RTSP port (default 8554)
-	         -T port  : RTSP over HTTP port (default 0)
-	         -u url   : unicast url (default unicast)
-	         -m url   : multicast url (default multicast)
-	         -M addr  : multicast group  (default is a random address)
-	         -c       : don't repeat config (default repeat config before IDR frame)
+		 -T port  : RTSP over HTTP port (default 0)
+		 -u url   : unicast url (default unicast)
+		 -m url   : multicast url (default multicast)
+		 -M addr  : multicast group  (default is a random address)
+		 -c       : don't repeat config (default repeat config before IDR frame)
 		 -t secs  : RTCP expiration timeout (default 65)
 		 V4L2 options :
 		 -r       : V4L2 capture using read interface (default use memory mapped buffers)
